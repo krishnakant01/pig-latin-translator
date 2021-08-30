@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --primary-color: #FBCFE8;
+    --grey-color: #374151;
+    --off-white: #FDF2F8;
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0px;
+}
+
+.head-container {
+    text-align: center;
+    padding: 0.25rem;
+    margin: auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+textarea {
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 20vh;
+    display: block;
+    padding: 1rem;
+    background-color: var(--off-white);
+    /* text-align: center; */
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-translate {
+    font-family: 'Patrick Hand', cursive ;
+    font-size: large;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 0px;
+    background-color: var(--primary-color);
+
+}
+
+.output-text {
+    font-size: larger;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#output {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 15vh;
+    display: block;
+    padding: 1rem;
+    background-color: var(--off-white);
+}
+
+.footer {
+
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    padding-top: 0.125rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer-text {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: var(--grey-color);
+}
